@@ -7,6 +7,7 @@ This is a Serverless API with Node.js and AWS for the RIDDIMFUTÁR app.
 **This project is not afflitiated with the Budapesti Közlekedési Központ (BKK) and the Forgalomirányítási és Utastájékoztatási Rendszer (FUTÁR) in any way. This project is solely for educational and experimental purposes.**
 
 ## File structure
+
 ```
 - dataSrc
     - gtfs
@@ -28,6 +29,13 @@ This is a Serverless API with Node.js and AWS for the RIDDIMFUTÁR app.
 GTFS data provided by BKK: [source](https://bkk.hu/apps/gtfs/)
 
 ## Scripts
+
 Run with `npm run [scriptname]`
+
 - `listen`
-    - Listens to the mp3 files under `dataSrc/mp3/xxx.mp3` and renames them to match their content. E.g. if the filename is `03.mp3` and the content is `Széll Kálmán tér metróállomás`, the filename is going to be `szellkalmanterm.mp3`.
+  - Listens to the mp3 files under `dataSrc/mp3/xxx.mp3` and renames them to match their content. E.g. if the filename is `03.mp3` and the content is `Széll Kálmán tér metróállomás`, the filename is going to be `szellkalmanterm.mp3`.
+
+## Environment variables
+
+- `GOOGLE_APPLICATION_CREDENTIALS`
+  - can be obtained at the [Google Cloud Platform Console](https://console.cloud.google.com/apis/credentials)

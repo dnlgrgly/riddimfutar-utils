@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "riddimfutar",
+  "private_key_id": "abc4bf2bead346ac83ca75101055b1f4aeb562a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC6cBNqYIK51ETU\nPfZHROlH+puhoDnUw/8xvuqNBnF9NwIaV387W146vlyjLBnZZT3Q7YSnBRvqV/7U\ngDTXdkMPpCTEr19impcOJSl3DBJ2I3yqeUi7G/QbDeDPMFCfilPqviaQp3jQiOJD\n1ZKQH/kG0TpsZ25JLu1q/EEg6X7ItdvBE2/x1jYSSDImXQHS/C9VFDSzqyVwEU7q\nGkcvfRQpXHfWQ/0MgZoax60gt1vXlV6xhaTUhzGEsliTbjSOL62lJfDvRymTwd4A\nYfQY1Gun3PJS1Eu4/vIyN3Sl/kRRyXSvik8QRuVZbj1j8P+b+4ywJw1546xlLuyx\nto4NGMH/AgMBAAECggEADA4hLe4Npece3ZEgHUhMbqC6yCmsc6CKHh+tL5nsuV8B\niM3YO/CoLX46TpFpySUtvmu3+ctvxv289uVPWrtFPNFX+0vSYXWDh6D0McQbEX6G\nmh37i6BpbrJoCJ2kKPIbLlZF93E3c6yA4kgAu8cFeuEJORHlugpfGbLeoeUskzJq\n3e2JYrEKA7R7L/dbP7wIpPeQol91zTAen59B9SRQIIKm8Qfwjn/KrAQ7ND6+9SEU\nBHJz+7QpcS4DPrb9zmDOJIemuPXEx35RVntA2dbI8Yjk0F6tWzCjPTclH1ZVDyuo\n2hZqfjzu5/YqjE/1wnItXwNArH3ZFFXjs0aQEbyHYQKBgQDonUXowtEpm++ZmXAQ\n9PC+/Gi52rb4i/cmmCXiW9mUeD0TKLc8vkPmwDtL+mXzZX+TDqq6+kEtZK2TOEEY\nf5JDNFJOFwYXz+nucEAXzQWavcjYZ+HEZuPSSg7z/4vMGjkn6nguflGddqh9hT9D\nwPMG9PGFHvJYyoBlg4S0x/C78QKBgQDNLl7WP1M3tiuOZQWOJqQiS7q1ESFFerDA\nnFjxRwGuzX0aZFwGVdTrCzHe/xgqsYOc8oIfyjINOfe8ohqnI+clSmXa1B3YetyT\n1OJUKlJ2wy8VbnOkgc+BQeKRIh7WXeaviUnUvEe7iciEibTFJ4l9bGVga011Yf+T\np8PmlSoM7wKBgA+zzixQOl5csGfl+7KpVjcOQuOI6CEPEbgBPU1yddWX6EeK0BPB\npEPHZjlSxd8QUvRSYSQOEKhHy4/MlFhbBDyVI5kx5K9m0ZvO6ASzSlWPyicRnCPt\n7iMb7LZ74av9eS5AnaxFyqyeffE7NXIVbFJj5ond9O4ZfWFc53BsrsuBAoGAfufa\nYpuCRigXopgbKoP96vR6A7oXoRi0sD1DyeAIS2zvnt5KCOUXr1UaQHn5IZbv96gL\nEcyGzqV29CYzZAOR2P++Je4ik53SRmFap4IRxUEOIyxQvIRJqwHsN6Yp+p7Tqui4\nUKsvlvAupMNjmrnMkVX1EgDsRNkbMeGHClxiSOMCgYA6GwdFAOGu/fDlO32a+rIo\n8YAoVSIBoRoQ9I4HXq6OhCKp3ftmcEz2pI+gVH8AvwVMTjyq8txSKLr1GK9I9+Uv\n81te81/0HBk8n2GDrNr02evPnmog7IdNuik4bgCQqB73Dtuy9zm5zlevdi6klbrG\nrZPr/bdbP4oFTFbhRlsSWw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "riddimfutar@riddimfutar.iam.gserviceaccount.com",
+  "client_id": "117696380531025801913",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/riddimfutar%40riddimfutar.iam.gserviceaccount.com"
+}

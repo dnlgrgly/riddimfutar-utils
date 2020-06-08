@@ -1,1 +1,4 @@
 node_modules
+dataSrc/mp3/*
+dataSrc/gtfs/*
+.env
