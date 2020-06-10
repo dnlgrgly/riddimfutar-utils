@@ -36,7 +36,7 @@ Run with `npm run [scriptname]`
   - Listens to the mp3 files under `dataSrc/mp3/xxx.mp3` and renames them to match their content. E.g. if the filename is `03.mp3` and the content is `Széll Kálmán tér metróállomás`, the filename is going to be `szellkalmanterm.mp3`.
 
 - `initDb`
-  - Initializes mongodb on the specified URL with the converted GTFS data and the matched MP3 files.
+  - Initializes mongodb on the specified URL with names of the stops and the matched MP3 files.
 
 ## Environment variables
 
