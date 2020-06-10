@@ -4,10 +4,6 @@ const client = new speech.SpeechClient();
 
 const list = fs.readdirSync("dataSrc/mp3");
 
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 list.forEach(async (item) => {
   const fileName = item;
   const file = fs.readFileSync(`dataSrc/mp3/${fileName}`);

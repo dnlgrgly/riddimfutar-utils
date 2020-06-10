@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "listen": "node listen.js"
+    "listen": "node listen.js",
+    "initDb": "env-cmd node initDb.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/danielgrgly/riddimfutar-utils#readme",
   "dependencies": {
-    "@google-cloud/speech": "^4.0.0"
+    "@google-cloud/speech": "^4.0.0",
+    "gtfs": "^1.10.2",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
   }
 }
