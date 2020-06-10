@@ -9,6 +9,17 @@ gtfs
       {
         agency_key: "BKK",
         url: "https://www.bkk.hu/gtfs/budapest_gtfs.zip",
+        exclude: [
+          "feed_info",
+          "agency",
+          "shapes",
+          // "routes",
+          // "stops",
+          "trips",
+          "stop_times",
+          "calendar_dates",
+          "pathways",
+        ],
       },
     ],
   })
