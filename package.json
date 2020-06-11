@@ -20,6 +20,7 @@
   "homepage": "https://github.com/danielgrgly/riddimfutar-utils#readme",
   "dependencies": {
     "@google-cloud/speech": "^4.0.0",
+    "axios": "^0.19.2",
     "mongoose": "^5.9.18"
   },
   "devDependencies": {
