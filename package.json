@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "listen": "node listen.js",
-    "initDb": "env-cmd node --max-old-space-size=4096 initDb.js"
+    "initDb": "env-cmd node initDb.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/danielgrgly/riddimfutar-utils#readme",
   "dependencies": {
     "@google-cloud/speech": "^4.0.0",
+    "@google-cloud/storage": "^5.0.1",
     "axios": "^0.19.2",
     "mongoose": "^5.9.18"
   },

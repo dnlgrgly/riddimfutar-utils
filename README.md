@@ -42,3 +42,5 @@ Run with `npm run [scriptname]`
 
 - `GOOGLE_APPLICATION_CREDENTIALS`
   - can be obtained at the [Google Cloud Platform Console](https://console.cloud.google.com/apis/credentials)
+- `MONGO_URL`
+  - the mongo srv URL. I personally host this project with [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) but it's up to you
