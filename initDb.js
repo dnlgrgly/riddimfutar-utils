@@ -39,9 +39,14 @@ const main = async () => {
   );
 
   // drop useless data
-  const stops = bkkRaw.data.data.list.map((stopRaw) => {
-    return { name: stopRaw.name, id: stopRaw.id };
-  });
+  const stops = bkkRaw.data.data.list
+    .map((stopRaw) => {
+      return { name: stopRaw.name, id: stopRaw.id };
+    })
+    // stops with a non-F(UTAR) or CS(oport)F(UTAR) code are usually
+    // underpass entraces and administrative stops
+    // -- we don't need them
+    .filter((stop) => stop.id.includes("BKK_F") || stop.id.includes("BKK_CSF"));
 
   stops.sort();
 
@@ -59,7 +64,7 @@ const main = async () => {
 
     if (fileIndex > 0) {
       results.push({ name, id, fileName: files[fileIndex].name });
-      console.log(`✅ ${name} - ${files[fileIndex].name}`);
+      //   console.log(`✅ ${name} - ${files[fileIndex].name}`);
       const unusedFileIndex = unusedFilenames.indexOf(files[fileIndex]);
       if (unusedFileIndex > -1) {
         unusedFilenames.splice(unusedFileIndex, 1);
@@ -77,13 +82,13 @@ const main = async () => {
   if (unusedFilenames.length > 0) {
     console.log("⚠️ Unmatched files ⚠️");
     console.log(`${unusedFilenames.length} not used (out of ${files.length})`);
-    unusedFilenames.forEach((file) => console.log(`❌ ${file.name}`));
+    // unusedFilenames.forEach((file) => console.log(`❌ ${file.name}`));
   }
 
   if (unusedStops.length > 0) {
     console.log("⚠️ Unmatched stop names ⚠️");
     console.log(`${unusedStops.length} not used (out of ${stops.length})`);
-    unusedStops.forEach((stop) => console.log(`❌ ${stop.name}`));
+    // unusedStops.forEach((stop) => console.log(`❌ ${stop.name}`));
   }
 };
 
