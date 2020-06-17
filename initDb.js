@@ -135,9 +135,7 @@ db.once("open", () => {
       let stopName = normalise(name);
 
       // check the index of the file that has the same name as the stop in question
-      const fileIndex = files.findIndex((file) =>
-        MHMH(file.name).includes(stopName)
-      );
+      const fileIndex = files.findIndex((file) => MHMH(file.name) == `${stopName}mp3`);
 
       // if yes, match the stops
       if (fileIndex > -1) {
