@@ -2,6 +2,8 @@
 // and matches the stop IDs with the name of the available sound files
 // inside the storage bucket
 
+require('dotenv').config()
+
 const axios = require("axios");
 const mongoose = require("mongoose");
 const { Storage } = require("@google-cloud/storage");

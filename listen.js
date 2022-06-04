@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const speech = require("@google-cloud/speech");
 const fs = require("fs");
 const client = new speech.SpeechClient();

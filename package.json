@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "listen": "node listen.js",
-    "initDb": "env-cmd node initDb.js",
+    "initDb": "node initDb.js",
     "replaceAccented": "node replaceAccented.js"
   },
   "repository": {
@@ -23,9 +23,7 @@
     "@google-cloud/speech": "^4.0.0",
     "@google-cloud/storage": "^5.0.1",
     "axios": "^0.19.2",
+    "dotenv": "^16.0.1",
     "mongoose": "^5.9.18"
-  },
-  "devDependencies": {
-    "env-cmd": "^10.1.0"
   }
 }
