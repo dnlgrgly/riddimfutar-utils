@@ -114,7 +114,7 @@ db.once("open", () => {
       // underpass entraces and administrative stops
       // -- we don't need them
       .filter(
-        (stop) => stop.id.includes("BKK_F") || stop.id.includes("BKK_CSF")
+        (stop) => (stop.id.includes("BKK_F") || stop.id.includes("BKK_CSF")) || stop.type === "SUBURBAN_RAILWAY"
       );
 
     // filter data
