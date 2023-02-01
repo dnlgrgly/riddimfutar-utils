@@ -24,6 +24,6 @@
     "@google-cloud/storage": "^5.0.1",
     "axios": "^0.19.2",
     "dotenv": "^16.0.1",
-    "mongoose": "^5.9.18"
+    "mongoose": "^5.13.15"
   }
 }
